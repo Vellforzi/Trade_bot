@@ -29,8 +29,7 @@ Buy_finished datetime,
 Sell_finished	datetime,
 id int unsigned auto_increment,
 Strategy varchar(50)
-constraint orders_PK PRIMARY KEY (id)
-)
+CONSTRAINT orders_PK PRIMARY KEY (id))
 
 Second table - Settings:
 
@@ -45,8 +44,7 @@ Time_delay double,
 Api_key varchar(250),
 Api_secret varchar(250),
 Pass_phrase varchar(250),
-constraint settings_PK PRIMARY KEY (id)
-)
+CONSTRAINT settings_PK PRIMARY KEY (id))
 
 AND add some settings. For example:
 
