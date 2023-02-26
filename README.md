@@ -64,5 +64,6 @@ self.db_password = "your password"
 self.db_name = 'test'
 
 You need to add your host, user name and password.
+Don't use manual_run. It is not finish yet.
 
 That's all. RUN main.py.
