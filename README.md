@@ -58,9 +58,9 @@ Second table is just general options.
 STEP 2.
 Open Settings.py.
 
-self.db_host = '***'
-self.db_user = '***'
-self.db_password = "***"
+self.db_host = 'your address'
+self.db_user = 'your name'
+self.db_password = "your password"
 self.db_name = 'test'
 
 You need to add your host, user name and password.
